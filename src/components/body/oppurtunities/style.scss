@@ -1,0 +1,76 @@
+.bg-opportunities {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 11rem;
+  .mask {
+    position: absolute;
+    top: 30rem;
+    left: -32rem;
+  }
+  .leaf {
+    position: absolute;
+    top: 55rem;
+    left: -7rem;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+
+.bg-card {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 5rem;
+  .card1 {
+    width: 30%;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: -1px 13px 20px #f0f2f4;
+
+    p {
+      opacity: 0.5;
+    }
+  }
+  .card3 {
+    width: 30%;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: -1px 13px 20px #f0f2f4;
+
+    p {
+      opacity: 0.5;
+    }
+  }
+  .card2 {
+    width: 30%;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #66bb6a;
+    padding: 30px;
+    border-radius: 5px;
+    img {
+      margin-bottom: 2rem;
+    }
+    p {
+      opacity: 0.5;
+    }
+  }
+}

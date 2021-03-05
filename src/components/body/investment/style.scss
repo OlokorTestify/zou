@@ -1,0 +1,141 @@
+.section1 {
+  display: flex;
+  flex-direction: column;
+  h3 {
+    font-size: 14px;
+    color: #66bb6a;
+    letter-spacing: 0.3rem;
+  }
+  h1 {
+    line-height: 40px;
+  }
+  hr {
+    width: 10%;
+    margin-right: 30rem;
+    background-color: #ffffff;
+    height: 0.1rem;
+    margin-bottom: 5rem;
+  }
+  .invest-hero {
+    width: 70%;
+    margin: 0 auto;
+    p {
+      line-height: 2rem;
+    }
+  }
+  .g-card {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 5rem;
+    justify-content: space-between;
+    .card-bgn {
+      width: 410px;
+      height: 440px;
+      line-height: 24px;
+      font-size: 16px;
+      font-weight: 400;
+      opacity: rgba(97, 118, 127, 0.0001) 0%;
+      background-image: url("./asset/Bitmap.png");
+      padding: 30px;
+      color: #ffffff;
+      border-radius: 5px;
+      box-shadow: -1px 13px 20px #f0f2f4;
+      margin-right: 3rem;
+
+      h1 {
+        font-size: 31px;
+      }
+      p {
+        color: #e2efd2;
+        line-height: 24px;
+      }
+    }
+    .card-bgn2 {
+      width: 410px;
+      height: 440px;
+      margin-right: 10rem;
+      line-height: 24px;
+      font-size: 16px;
+      font-weight: 400;
+      opacity: rgba(97, 118, 127, 0.0001) 0%;
+      background-image: url("./asset/Bitmap\ \(1\).png");
+      padding: 30px;
+      color: #ffffff;
+      border-radius: 5px;
+      box-shadow: -1px 13px 20px #f0f2f4;
+      h1 {
+        font-size: 31px;
+      }
+      p {
+        color: #e2efd2;
+        line-height: 24px;
+      }
+    }
+  }
+  button {
+    padding: 15px 35px;
+    color: #66bb6a;
+    background-color: #ffffff;
+    border: #66bb6a;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+  }
+  .works {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #66bb6a;
+    color: #ffffff;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+    .her {
+      width: 55%;
+      height: 0.1rem;
+      border: 1px solid #ffffff;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 36px;
+      margin-top: 5rem;
+    }
+    .bar {
+      width: 50%;
+      margin: 0 auto;
+      font-size: 18px;
+      color: #e8f5e9;
+      margin-bottom: 4rem;
+    }
+    .bg-second {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 3rem;
+      width: 55%;
+      margin: 0 auto;
+      text-align: left;
+      margin-top: 3rem;
+
+      .h2 {
+        width: 50%;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 32px;
+      }
+      .paragrph {
+        width: 40%;
+        p {
+          font-size: 16px;
+          line-height: 24px;
+          color: #e8f5e9;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+.bg-section {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 12rem;
+  .future {
+    width: 1056px;
+    height: 254.27px;
+    background: #ffffff;
+    margin: 0 auto;
+    box-shadow: -1px 25px 20px rgb(223, 221, 221);
+    border-radius: 5px;
+    margin-top: 10rem;
+    padding-bottom: 3rem;
+    h2 {
+      margin-top: 4rem;
+      font-size: 36px;
+      line-height: 64px;
+      text-align: center;
+      .p-green {
+        color: #66bb6a;
+      }
+    }
+    button {
+      width: 269px;
+      height: 47.72px;
+      margin-left: 25rem;
+      background: #66bb6a;
+      filter: drop-shadow(0px 13px 20px rgba(118, 196, 125, 0.411204));
+      border: none;
+      border-radius: 5px;
+      color: #ffffff;
+    }
+  }
+  .main-h1 {
+    font-size: 36px;
+    line-height: 45px;
+    width: 411px;
+    margin-left: 7rem;
+    img {
+      position: absolute;
+    }
+  }
+  .main-card {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 5rem;
+    .bg-card1 {
+      width: 550px;
+      line-height: 24px;
+      font-size: 16px;
+      font-weight: 400;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: -1px 13px 20px rgb(223, 221, 221);
+      margin-right: 2rem;
+      .pst {
+        font-size: 18px;
+        line-height: 32px;
+        margin-left: 0.5rem;
+      }
+      .split {
+        display: flex;
+        font-display: row;
+
+        .user1 {
+          border-radius: 50%;
+          box-shadow: -1px 13px 20px rgb(97, 96, 96);
+          background-image: url("./Assets//Bitmap.png");
+          height: 72px;
+          width: 72px;
+          background-position: center;
+        }
+
+        .userr {
+          border-radius: 50%;
+          box-shadow: -1px 13px 20px rgb(97, 96, 96);
+          background-image: url("./Assets/\/aiony-haust-1096642-unsplash.png");
+          height: 72px;
+          width: 72px;
+          background-position: center;
+        }
+        .header {
+          margin-top: -1rem;
+          margin-left: 1.5rem;
+          font-size: 18px;
+          line-height: 24px;
+          .p-green {
+            color: #66bb6a;
+            margin-bottom: -1rem;
+          }
+        }
+      }
+    }
+  }
+}

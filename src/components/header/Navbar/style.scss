@@ -1,0 +1,43 @@
+section {
+  width: 100%;
+  .Navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 79.5%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    h1 {
+      color: #13aa57;
+      cursor: pointer;
+      margin-top: 0.7rem;
+    }
+
+    .Navbar-list {
+      width: 70%;
+      ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        li {
+          margin-right: 3rem;
+          cursor: pointer;
+        }
+        .active {
+          color: #13aa57;
+        }
+      }
+    }
+    .navbar-button {
+      button {
+        padding: 15px 30px;
+        border-radius: 4px;
+        margin-top: 0.5rem;
+        color: #ffffff;
+        background-color: #13aa57;
+        border: #13aa57;
+        cursor: pointer;
+      }
+    }
+  }
+}

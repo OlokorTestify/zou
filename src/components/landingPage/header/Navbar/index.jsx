@@ -1,8 +1,11 @@
 import React from "react";
-
+import history from "../../../utils";
 import "./style.scss";
 
 const Navbar = () => {
+  const handleClick = (id) => {
+    history.push("/SignUp");
+  };
   return (
     <>
       <section>
@@ -20,7 +23,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navbar-button">
-            <button>Sign Up</button>
+            <button onClick={handleClick}>Sign Up</button>
           </div>
         </div>
       </section>

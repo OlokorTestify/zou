@@ -139,3 +139,83 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .section1 {
+    .g-card {
+      width: 85%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section1 {
+    .g-card {
+      width: 95%;
+      .card-bgn {
+        margin-right: 1.4rem;
+        width: 22rem;
+      }
+      .card-bgn2 {
+        width: 22rem;
+      }
+    }
+    .invest-hero {
+      text-align: left;
+      p {
+        line-height: 1rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section1 {
+    .works {
+      text-align: left;
+      .h1 {
+        margin-left: 2rem;
+      }
+      .bg-second {
+        flex-direction: column;
+        .h2 {
+          width: 100%;
+        }
+        .paragrph {
+          width: 100%;
+        }
+      }
+      .bar {
+        width: 80%;
+      }
+    }
+    .invest-hero {
+      p {
+        line-height: 1.6rem;
+      }
+    }
+    .g-card {
+      flex-direction: column;
+      margin-right: -1rem;
+      .card-bgn {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .card-bgn {
+    margin-left: -1.5rem;
+  }
+  .card-bgn2 {
+    margin-left: -1.5rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .card-bgn {
+    width: 19rem;
+  }
+  .card-bgn2 {
+    width: 19rem;
+  }
+}

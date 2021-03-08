@@ -100,3 +100,78 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .bg-section {
+    .main-card {
+      margin-right: 1.5rem;
+    }
+    .future {
+      margin-left: -5rem;
+      width: 61rem;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .bg-section {
+    .future {
+      width: 46rem;
+      margin-left: -3.9rem;
+      button {
+        margin-left: 15rem;
+      }
+    }
+    .main-card {
+      width: 87%;
+      .bg-card1 {
+        width: 14rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .bg-section {
+    .main-h1 {
+      font-size: 36px;
+      line-height: 45px;
+      text-align: left;
+      width: 21rem;
+      margin-left: 0;
+    }
+    .future {
+      width: 26rem;
+      margin-left: -2.4rem;
+      height: 20rem;
+      button {
+        margin-left: 5rem;
+      }
+    }
+    .main-card {
+      flex-direction: column;
+      .bg-card1 {
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .bg-section {
+    .main-h1 {
+      width: 18rem;
+      margin-left: -1rem;
+    }
+    .future {
+      width: 18rem;
+      margin-left: -1rem;
+      button {
+        margin-left: 0.5rem;
+      }
+      h2 {
+        margin-left: 1rem;
+        line-height: 42px;
+        text-align: left;
+      }
+    }
+  }
+}

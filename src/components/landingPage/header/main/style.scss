@@ -36,3 +36,38 @@
     margin-left: 2rem;
   }
 }
+@media screen and (max-width: 1024px) {
+  .section {
+    width: 60%;
+    text-align: left;
+    .hero {
+      margin-left: 5rem;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .section {
+    flex-direction: column;
+    width: 70%;
+    text-align: left;
+    .hero {
+      width: 100%;
+    }
+    .img {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section {
+    text-align: center;
+    width: 80%;
+    margin-left: -2.5rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .section {
+    text-align: left;
+  }
+}

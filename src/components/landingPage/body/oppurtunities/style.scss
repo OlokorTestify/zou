@@ -74,3 +74,44 @@
     }
   }
 }
+@media screen and (max-width: 1024px) {
+  .bg-opportunities {
+    width: 100%;
+    margin-top: -3rem;
+    .mask {
+      left: -34rem;
+    }
+    .leaf {
+      top: 51rem;
+      left: -11rem;
+    }
+  }
+  .bg-card {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .bg-opportunities {
+    .mask {
+      left: -35rem;
+    }
+    .leaf {
+      top: 49rem;
+      left: -15rem;
+    }
+  }
+  .bg-card {
+    flex-direction: column;
+    .card1 {
+      width: 100%;
+    }
+    .card2 {
+      width: 100%;
+      margin-top: 1rem;
+    }
+    .card3 {
+      width: 100%;
+      margin-top: 1rem;
+    }
+  }
+}

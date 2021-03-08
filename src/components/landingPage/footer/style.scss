@@ -59,3 +59,20 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    .Zou {
+      margin-left: 4rem;
+    }
+    .footer2 {
+      flex-direction: column;
+      width: 69%;
+      margin: 0 auto;
+      .in-div {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

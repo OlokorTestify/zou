@@ -1,6 +1,7 @@
 import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
+import history from "../utils";
 import "./style.scss";
 import Image from "./assets/main_illustration.png";
 
@@ -11,6 +12,13 @@ const SignUp = () => {
     first_name: Yup.string().required("Please enter your first name"),
     last_name: Yup.string().required("Please enter your last name"),
   });
+
+  const handleClick = () => {
+    history.push("/LogIn");
+  };
+  const handleChange = () => {
+    history.push("/");
+  };
   return (
     <>
       <div className="signUp">
@@ -18,7 +26,7 @@ const SignUp = () => {
           <img src={Image} alt="" />
         </div>
         <div className="form">
-          <h1>ZOU</h1>
+          <h1 onClick={handleChange}>ZOU</h1>
           <p className="p1">
             Create a Zou account and join the community of Farmers
           </p>
@@ -97,7 +105,9 @@ const SignUp = () => {
                   </div>
                   <p className="fa-register">
                     Already have an account?
-                    <span className="Registration">Log In</span>
+                    <span className="Registration" onClick={handleClick}>
+                      Log In
+                    </span>
                   </p>
                 </Form>
               </section>

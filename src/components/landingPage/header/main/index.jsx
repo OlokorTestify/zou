@@ -17,7 +17,10 @@ const Hero = () => {
             materials...
           </p>
 
-          <div>
+          <div className="inputt">
+            <div>
+              <input type="text" name="Email" placeholder="Email" />
+            </div>
             <button>Invest Now</button>
           </div>
         </div>

@@ -4,7 +4,7 @@ import "./style.scss";
 
 const Navbar = () => {
   const handleClick = (id) => {
-    history.push("/SignUp");
+    history.push("/login");
   };
   return (
     <>
@@ -23,7 +23,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navbar-button">
-            <button onClick={handleClick}>Sign Up</button>
+            <button onClick={handleClick}>Login</button>
           </div>
         </div>
       </section>

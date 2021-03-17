@@ -1,6 +1,7 @@
 import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
+import history from "../utils";
 import "./style.scss";
 import Image from "./assets/main_illustration.png";
 
@@ -11,15 +12,20 @@ const SignUp = () => {
     first_name: Yup.string().required("Please enter your first name"),
     last_name: Yup.string().required("Please enter your last name"),
   });
+  const handleClick = () => {
+    history.push("/SignUp");
+  };
+
+  const handleChange = () => {
+    history.push("/");
+  };
   return (
     <>
       <div className="signUp">
         <div className="image-auth">
           <img src={Image} alt="" />
         </div>
-        <div className="form">
-          <h1>ZOU</h1>
-          <p className="p1">Welcome Back</p>
+        <div className="form1">
           <Formik
             initialValues={{
               email: "",
@@ -32,8 +38,11 @@ const SignUp = () => {
           >
             <>
               <section className="login_form">
+                <h1 onClick={handleChange}>ZOU</h1>
+                <p className="p1">Welcome Back</p>
                 <Form>
                   <div className="input-container">
+                    <label className="label">First Name</label>
                     <Field
                       type="text"
                       name="first_name"
@@ -47,11 +56,13 @@ const SignUp = () => {
                   />
 
                   <div className="input-container">
+                    <label className="label">Email Address</label>
                     <Field type="email" name="email" placeholder="email" />
                   </div>
 
                   <ErrorMessage name="email" component="div" />
                   <div className="input-container">
+                    <label className="label">Password</label>
                     <Field
                       type="password"
                       name="password"
@@ -70,7 +81,9 @@ const SignUp = () => {
                   </div>
                   <p className="fa-register">
                     New Here?
-                    <span className="Registration">Sign Up</span>
+                    <span className="Registration" onClick={handleClick}>
+                      Sign Up
+                    </span>
                   </p>
                 </Form>
               </section>

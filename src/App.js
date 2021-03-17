@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Router, Switch, Route } from "react-router-dom";
 import History from "./components/utils";
 import LandingPage from "./components/landingPage";
 import SignUp from "./components/signUp";
@@ -9,11 +9,11 @@ import "./App.scss";
 function App() {
   return (
     <>
-      <Router History={History}>
+      <Router history={History}>
         <Switch>
           <Route exact path="/" component={LandingPage} />
-          <Route path="/SignUp" component={SignUp} />
-          <Route path="/LogIn" component={LogIn} />
+          <Route path="/signup" component={SignUp} />
+          <Route path="/login" component={LogIn} />
         </Switch>
       </Router>
     </>

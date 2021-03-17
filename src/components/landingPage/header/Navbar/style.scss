@@ -6,11 +6,12 @@ section {
     justify-content: space-between;
     width: 79.5%;
     margin: 0 auto;
-    padding-top: 2rem;
+    padding-top: 1rem;
     h1 {
       color: #13aa57;
       cursor: pointer;
       margin-top: 0.7rem;
+      font-size: 1.7rem;
     }
 
     .Navbar-list {
@@ -22,6 +23,7 @@ section {
         li {
           margin-right: 3rem;
           cursor: pointer;
+          font-size: 0.9rem;
         }
         .active {
           color: #13aa57;
@@ -30,13 +32,15 @@ section {
     }
     .navbar-button {
       button {
-        padding: 15px 30px;
-        border-radius: 4px;
+        padding: 7px 50px;
+        border-radius: 6px;
         margin-top: 0.5rem;
         color: #ffffff;
         background-color: #13aa57;
         border: #13aa57;
         cursor: pointer;
+        font-family: "chivo";
+        font-size: 0.9rem;
       }
     }
   }

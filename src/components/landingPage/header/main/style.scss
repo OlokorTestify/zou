@@ -90,18 +90,20 @@
   .section {
     text-align: left;
     .hero {
-      margin-left: 3rem;
+      width: 100vw;
       text-align: center;
+      margin-left: 0;
       h1 {
-        font-size: 30px;
+        font-size: 35px;
         line-height: 3rem;
       }
       p {
-        font-size: 14px;
+        font-size: 18px;
       }
       .inputt {
         flex-direction: column;
         margin-left: 1rem;
+        width: 95%;
 
         .input_width {
           width: 100%;

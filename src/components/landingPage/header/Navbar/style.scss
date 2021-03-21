@@ -7,6 +7,9 @@ section {
     width: 79.5%;
     margin: 0 auto;
     padding-top: 1rem;
+    .hamburger {
+      display: none;
+    }
     h1 {
       color: #13aa57;
       cursor: pointer;
@@ -46,7 +49,40 @@ section {
   }
 }
 @media screen and (max-width: 768px) {
-  .Navbar {
-    visibility: hidden;
+  section {
+    .Navbar {
+      .Navbar-list {
+        width: 1%;
+        ul {
+          .none {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  section {
+    .Navbar {
+      .navbar-button {
+        button {
+          margin-left: 6rem;
+          padding: 7px 30px;
+        }
+      }
+      .hamburger {
+        display: block;
+        margin-top: 0.2rem;
+        width: 10%;
+        img {
+          width: 100%;
+          height: 67%;
+        }
+      }
+      .Navbar-list {
+        display: none;
+      }
+    }
   }
 }

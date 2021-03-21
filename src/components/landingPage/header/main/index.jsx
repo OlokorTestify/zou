@@ -8,7 +8,7 @@ const Hero = () => {
     <>
       <section className="section">
         <div className="hero">
-          <div>
+          <div className="width">
             <h1>A New Way to Invest in Agriculture</h1>
           </div>
           <p>

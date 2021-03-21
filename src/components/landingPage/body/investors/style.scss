@@ -132,12 +132,11 @@
 @media screen and (max-width: 600px) {
   .bg-section {
     .main-h1 {
-      font-size: 36px;
-      line-height: 45px;
       text-align: left;
-      width: 21rem;
       width: 18rem;
       margin-left: -1rem;
+      line-height: 36px;
+      font-size: 1.8rem;
     }
     .future {
       width: 100%;
@@ -149,15 +148,20 @@
         margin: 0;
       }
       h2 {
-        font-size: 24px;
-        line-height: 30px;
+        line-height: 36px;
+        font-size: 1.8rem;
       }
     }
     .main-card {
       flex-direction: column;
+      width: 100%;
       .bg-card1 {
         width: 100%;
         margin-bottom: 1rem;
+        .pst {
+          font-size: 0.9rem;
+          line-height: 1.5;
+        }
       }
     }
   }

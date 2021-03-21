@@ -93,15 +93,21 @@
       width: 100vw;
       text-align: center;
       margin-left: 0;
+      .width {
+        width: 90%;
+        margin: 0 auto;
+      }
       h1 {
         line-height: 36px;
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin-bottom: 1.3rem;
         font-weight: 700;
       }
       p {
         font-size: 0.9rem;
         line-height: 1.5;
+        width: 85%;
+        margin: 0 auto;
       }
       .inputt {
         flex-direction: column;

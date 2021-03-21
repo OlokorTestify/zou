@@ -199,8 +199,13 @@
       }
     }
     .invest-hero {
+      h1 {
+        font-size: 1.8rem;
+        line-height: 36px;
+      }
       p {
-        line-height: 1.6rem;
+        font-size: 0.9rem;
+        line-height: 1.5;
       }
     }
     .g-card {

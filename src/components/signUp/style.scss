@@ -94,6 +94,21 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .signUp {
+    .form {
+      .p1 {
+        width: 85%;
+      }
+      .login_form {
+        form {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 600px) {
   .image-auth {
     display: none;
@@ -102,7 +117,12 @@
     .form {
       width: 100%;
       .p1 {
-        width: 55%;
+        width: 85%;
+      }
+      .login_form {
+        form {
+          width: 80%;
+        }
       }
     }
   }

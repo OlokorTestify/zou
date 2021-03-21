@@ -84,3 +84,23 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .form1 {
+    .login_form {
+      form {
+        width: 80%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .signUp {
+    .image-auth {
+      display: none;
+    }
+  }
+  .form1 {
+    width: 100%;
+  }
+}

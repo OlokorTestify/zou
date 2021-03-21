@@ -79,14 +79,14 @@
   }
 }
 
+// @media screen and (max-width: 600px) {
+//   .section {
+//     text-align: center;
+//     width: 80%;
+//     margin-left: -2.5rem;
+//   }
+// }
 @media screen and (max-width: 600px) {
-  .section {
-    text-align: center;
-    width: 80%;
-    margin-left: -2.5rem;
-  }
-}
-@media screen and (max-width: 400px) {
   .section {
     text-align: left;
     .hero {
@@ -99,11 +99,15 @@
       }
       .inputt {
         flex-direction: column;
-        input {
+
+        .input_width {
           width: 100%;
+          input {
+            width: 96%;
+          }
         }
         button {
-          width: 100%;
+          width: 96%;
           margin-top: 0.75rem;
         }
       }

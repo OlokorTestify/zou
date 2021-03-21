@@ -173,13 +173,20 @@
   .section1 {
     .works {
       text-align: left;
-      .h1 {
+      width: 90%;
+      h1 {
+        margin-top: 5rem;
         margin-left: 2rem;
+        font-size: 30px;
       }
+
       .bg-second {
         flex-direction: column;
+        width: 80%;
         .h2 {
           width: 100%;
+          font-size: 20px;
+          line-height: 27px;
         }
         .paragrph {
           width: 100%;
@@ -187,6 +194,8 @@
       }
       .bar {
         width: 80%;
+        font-size: 16px;
+        line-height: 24px;
       }
     }
     .invest-hero {
@@ -199,23 +208,13 @@
       margin-right: -1rem;
       .card-bgn {
         margin-bottom: 1rem;
+        margin-left: -1.5rem;
+        width: 100%;
+      }
+      .card-bgn2 {
+        margin-left: -1.5rem;
+        width: 100%;
       }
     }
-  }
-}
-@media screen and (max-width: 400px) {
-  .card-bgn {
-    margin-left: -1.5rem;
-  }
-  .card-bgn2 {
-    margin-left: -1.5rem;
-  }
-}
-@media screen and (max-width: 360px) {
-  .card-bgn {
-    width: 19rem;
-  }
-  .card-bgn2 {
-    width: 19rem;
   }
 }

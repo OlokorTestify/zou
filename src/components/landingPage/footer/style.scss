@@ -76,3 +76,23 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .footer {
+    .in-div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .margin {
+        margin-right: -2rem;
+      }
+    }
+    .footer2 {
+      .in-div2 {
+        width: 100%;
+        width: 77vw;
+        margin-left: -1rem;
+      }
+    }
+  }
+}

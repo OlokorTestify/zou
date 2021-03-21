@@ -94,11 +94,14 @@
       text-align: center;
       margin-left: 0;
       h1 {
-        font-size: 35px;
-        line-height: 3rem;
+        line-height: 36px;
+        font-size: 2rem;
+        margin-bottom: 1.3rem;
+        font-weight: 700;
       }
       p {
-        font-size: 18px;
+        font-size: 0.9rem;
+        line-height: 1.5;
       }
       .inputt {
         flex-direction: column;
@@ -106,10 +109,10 @@
         width: 95%;
 
         .input_width {
-          width: 100%;
+          box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 10px;
+          width: 96%;
           input {
-            width: 96%;
-            box-shadow: rgba(0, 0, 0, 0.1) 5px 5px 10px;
+            width: 100%;
           }
         }
         button {

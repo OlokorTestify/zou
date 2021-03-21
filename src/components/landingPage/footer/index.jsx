@@ -12,8 +12,9 @@ const Footer = () => {
         </div>
         <div className="footer2">
           <div className="in-div">
-            <h3>COMPANY</h3>
-            <p>
+            <div><h3>COMPANY</h3></div>
+           <div>
+           <p>
               <a href="www.google.com">About Us</a>
             </p>
             <p>
@@ -25,9 +26,11 @@ const Footer = () => {
             <p>
               <a href="www.google.com">Contact</a>
             </p>
+            </div>
           </div>
           <div className="in-div">
-            <h3>INVEST</h3>
+            <div><h3>INVEST</h3></div>
+            <div className='margin'>
             <p>
               <a href="www.google.com">Features</a>
             </p>
@@ -41,8 +44,11 @@ const Footer = () => {
               <a href="www.google.com">Login</a>
             </p>
           </div>
+          </div>
+          
           <div className="in-div">
-            <h3>LEGAL</h3>
+            <div><h3>LEGAL</h3></div>
+            <div>
             <p>
               <a href="www.google.com">Privacy</a>
             </p>
@@ -52,6 +58,7 @@ const Footer = () => {
             <p>
               <a href="www.google.com">Security</a>
             </p>
+            </div>
           </div>
           <div className="in-div2">
             <h3>Blog Zou</h3>

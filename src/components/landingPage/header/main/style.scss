@@ -13,15 +13,18 @@
       flex-direction: row;
       margin-top: 3rem;
       width: 100%;
-      input {
-        width: 96%;
-        padding: 0.9rem 1rem;
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
-        margin-right: 2rem;
-        box-shadow: 0 9px 70px 0 #e8e8e8;
-        background: #ffffff;
-        border: 1px solid #ffffff;
+      .input_width {
+        width: 75%;
+        input {
+          width: 96%;
+          padding: 0.9rem 1rem;
+          border-top-left-radius: 5px;
+          border-bottom-left-radius: 5px;
+          margin-right: 2rem;
+          box-shadow: 0 9px 70px 0 #e8e8e8;
+          background: #ffffff;
+          border: 1px solid #ffffff;
+        }
       }
     }
     h1 {
@@ -89,6 +92,7 @@
     .hero {
       h1 {
         font-size: 30px;
+        line-height: 2rem;
       }
       p {
         font-size: 14px;

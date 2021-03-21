@@ -9,7 +9,7 @@ const SignUp = () => {
   const signInSchema = Yup.object().shape({
     email: Yup.string().email("Invalid email").required("Required"),
     password: Yup.string().required("Please enter your password"),
-    first_name: Yup.string().required("Please enter your first name"),
+    full_name: Yup.string().required("Please enter your full name"),
     last_name: Yup.string().required("Please enter your last name"),
   });
 
@@ -34,8 +34,8 @@ const SignUp = () => {
             initialValues={{
               email: "",
               password: "",
-              first_name: "",
-              last_name: "",
+              full_name: "",
+              phone_number: "",
             }}
             onSubmit={console.log("hello world")}
             validationSchema={signInSchema}
@@ -46,24 +46,24 @@ const SignUp = () => {
                   <div className="input-container">
                     <Field
                       type="text"
-                      name="first_name"
-                      placeholder="First name"
+                      name="full_name"
+                      placeholder="your full name e.g Jane Doe"
                     />
                   </div>
                   <ErrorMessage
-                    name="first_name"
+                    name="full_name"
                     component="div"
                     className="error_message"
                   />
                   <div className="input-container">
                     <Field
                       type="text"
-                      name="last_name"
-                      placeholder="Last Name (optional)"
+                      name="phone_number"
+                      placeholder="Phone Number "
                     />
                   </div>
                   <ErrorMessage
-                    name="Last_name"
+                    name="phone-number"
                     component="div"
                     className="error_message"
                   />

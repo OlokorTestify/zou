@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
 
           <div className="inputt">
-            <div>
+            <div className="input_width">
               <input type="text" name="Email" placeholder="Email" />
             </div>
             <button>Invest Now</button>

@@ -42,20 +42,6 @@ const SignUp = () => {
                 <p className="p1">Welcome Back</p>
                 <Form>
                   <div className="input-container">
-                    <label className="label">First Name</label>
-                    <Field
-                      type="text"
-                      name="first_name"
-                      placeholder="First name"
-                    />
-                  </div>
-                  <ErrorMessage
-                    name="first_name"
-                    component="div"
-                    className="error_message"
-                  />
-
-                  <div className="input-container">
                     <label className="label">Email Address</label>
                     <Field type="email" name="email" placeholder="email" />
                   </div>

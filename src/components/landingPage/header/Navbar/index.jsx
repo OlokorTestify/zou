@@ -1,11 +1,16 @@
-import React from "react";
+import { useState } from "react";
 import history from "../../../utils";
 import Hamburger from "./asset/hamburger (2)/1x/outline_menu_black_24dp.png";
+import SideNav from "./sideBar/index";
 import "./style.scss";
 
 const Navbar = () => {
-  const handleClick = (id) => {
+  const [isActive, setIsActive] = useState(false);
+  const handleClick = () => {
     history.push("/login");
+  };
+  const handleChange = () => {
+    setIsActive(!isActive);
   };
   return (
     <>
@@ -26,10 +31,11 @@ const Navbar = () => {
           <div className="navbar-button">
             <button onClick={handleClick}>Login</button>
           </div>
-          <div className="hamburger">
+          <div className="hamburger" onClick={handleChange}>
             <img src={Hamburger} alt="" />
           </div>
         </div>
+        <SideNav isActive={isActive} onClose={() => setIsActive(!isActive)} />
       </section>
     </>
   );

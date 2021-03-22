@@ -1,0 +1,31 @@
+.sidenav_container {
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1.5rem 2rem;
+  background: rgba(255, 255, 255, 0.97);
+  transition: transform 0.2s linear;
+}
+
+.open_side_nav {
+  transform: translateX(0);
+}
+
+.close_side_nav {
+  transform: translateX(-100%);
+}
+
+.sidenav_content {
+  margin-top: 7rem;
+  margin-left: 1rem;
+}
+.close_btn {
+  align-self: flex-start;
+  padding: 0;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+}

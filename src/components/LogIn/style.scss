@@ -102,5 +102,11 @@
   }
   .form1 {
     width: 100%;
+    .login_form {
+      margin-top: -16rem;
+      .fa-register {
+        margin-left: 5rem;
+      }
+    }
   }
 }

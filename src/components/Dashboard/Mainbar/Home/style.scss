@@ -1,0 +1,224 @@
+.mainBar_home {
+  .Mainbar_home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .image6 {
+      margin-right: 3rem;
+      margin-top: 3rem;
+      img {
+        height: 3rem;
+        width: 3rem;
+        margin-top: 1rem;
+      }
+    }
+    .mainbar-div_home {
+      .head {
+        margin-top: 3.5rem;
+        h1 {
+          font-size: 1.875rem;
+          font-weight: 700;
+        }
+        p {
+          font-size: 1rem;
+          margin-top: -1rem;
+          color: #718096;
+        }
+      }
+      margin-left: 3rem;
+    }
+  }
+  .quick1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 91%;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    .quickSave {
+      button {
+        width: 10rem;
+        height: 2rem;
+        margin-left: 25rem;
+        background: #66bb6a;
+        filter: drop-shadow(0px 13px 20px rgba(118, 196, 125, 0.411204));
+        border: none;
+        border-radius: 5px;
+        color: #ffffff;
+        border-bottom-left-radius: 0;
+      }
+    }
+  }
+  .cover {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 92.5%;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    img {
+      margin-left: 1rem;
+      width: 32px;
+      height: 32px;
+    }
+    .shield {
+      display: flex;
+      flex-direction: row;
+      background: #66bb6a;
+      width: 23%;
+      height: 8rem;
+      border-radius: 7px;
+      border-bottom-left-radius: 0;
+      align-items: center;
+      color: #ffffff;
+      .p {
+        margin-left: 1em;
+        .pp {
+          opacity: 0.75;
+          font-size: 0.875rem;
+          font-weight: 700;
+          margin-top: 1rem;
+          margin-bottom: 0;
+        }
+        .amount {
+          color: white;
+          min-width: 8rem;
+          font-size: 1.3rem;
+          text-align: left;
+          margin-top: 0.5rem;
+        }
+      }
+    }
+    .rig {
+      display: flex;
+      flex-direction: row;
+      background: darkcyan;
+      width: 23%;
+      height: 8rem;
+      border-radius: 7px;
+      border-bottom-left-radius: 0;
+      align-items: center;
+      color: #ffffff;
+      .p {
+        margin-left: 1em;
+        .pp {
+          opacity: 0.75;
+          font-size: 0.875rem;
+          font-weight: 700;
+          margin-top: 1rem;
+          margin-bottom: 0;
+        }
+        .amount {
+          color: white;
+          min-width: 8rem;
+          font-size: 1.3rem;
+          text-align: left;
+          margin-top: 0.5rem;
+        }
+      }
+    }
+    .dollar {
+      display: flex;
+      flex-direction: row;
+      background: #000000;
+      color: #ffffff;
+      width: 23%;
+      height: 8rem;
+      border-radius: 7px;
+      border-bottom-left-radius: 0;
+      align-items: center;
+      color: #ffffff;
+      .p {
+        margin-left: 1em;
+        .pp {
+          opacity: 0.75;
+          font-size: 0.875rem;
+          font-weight: 700;
+          margin-top: 1rem;
+          margin-bottom: 0;
+        }
+        .amount {
+          color: white;
+          min-width: 8rem;
+          font-size: 1.3rem;
+          text-align: left;
+          margin-top: 0.5rem;
+        }
+      }
+    }
+    .video {
+      display: flex;
+      flex-direction: row;
+      background: #ffffff;
+      width: 23%;
+      height: 8rem;
+      border-radius: 7px;
+      border-bottom-left-radius: 0;
+      border: 1px solid rgb(242, 240, 240);
+      align-items: center;
+      color: #000000;
+      .p {
+        margin-left: 1em;
+        .pp {
+          opacity: 0.75;
+          font-size: 0.875rem;
+          font-weight: 700;
+          margin-top: 1rem;
+          margin-bottom: 0;
+        }
+        .amount {
+          color: #000000;
+          min-width: 8rem;
+          font-size: 1.3rem;
+          text-align: left;
+          margin-top: 0.5rem;
+        }
+      }
+    }
+  }
+  .activities {
+    display: flex;
+    flex-direction: row;
+    width: 92.5%;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    .activity {
+      display: flex;
+      flex-direction: column;
+      width: 67%;
+      .div {
+        display: flex;
+        flex-direction: row;
+
+        background-color: transparent;
+        border: 1px solid rgb(207, 219, 224);
+        width: 100%;
+        height: 3rem;
+        margin-top: 1rem;
+        border-radius: 0.5rem;
+        border-bottom-left-radius: 0;
+        img {
+          height: 1rem;
+          width: 1rem;
+        }
+      }
+      p {
+        font-size: 0.75rem;
+      }
+      .diff {
+        background-color: transparent;
+        border: 1px solid rgb(207, 219, 224);
+        height: 3rem;
+        margin-top: 1rem;
+        border-radius: 0.5rem;
+        border-bottom-left-radius: 0;
+        width: 30%;
+        margin-bottom: 2rem;
+        img {
+          height: 1rem;
+          width: 1rem;
+        }
+      }
+    }
+  }
+}

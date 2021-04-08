@@ -10,11 +10,45 @@ const SideBar = () => {
   return (
     <>
       <section className="sideBar">
-        <div className="header">
-          <img src={Hamburger} alt="" />
-          <h2>ZOU</h2>
+        <div className="header"></div>
+        <div className="sidebar_menu">
+          <div className="sidebar_image">
+            <ul>
+              <li className="hamburger">
+                <img src={Hamburger} alt="" />
+              </li>
+              <li className="home">
+                <img src={Home} alt="" />
+              </li>
+              <li>
+                <img src={Bullseye} alt="" />
+              </li>
+              <li>
+                <img src={Home} alt="" />
+              </li>
+              <li>
+                <img src={Account} alt="" />
+              </li>
+              <li className="logout_image">
+                <img src={LogOut} alt="" />
+              </li>
+            </ul>
+          </div>
+          <div className="sidebar_list">
+            <ul>
+              <li className="header">
+                <h2>ZOU</h2>
+              </li>
+              <li>Home</li>
+              <li className="savings">Savings</li>
+              <li className="invest">Invest</li>
+              <li className="account">Account</li>
+              <li className="logout">Log Out</li>
+            </ul>
+          </div>
         </div>
-        <div className="mainContent">
+
+        {/* <div className="mainContent">
           <div className="content">
             <img src={Home} alt="" />
             <p>Home</p>
@@ -37,7 +71,7 @@ const SideBar = () => {
             <img src={LogOut} alt="" />
             <p>Log Out</p>
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   );

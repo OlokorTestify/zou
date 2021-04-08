@@ -1,6 +1,6 @@
 .sideBar {
-  width: 17%;
-  background-color: #66bb6a;
+  width: 20%;
+  background-color: darkcyan;
   height: 100vh;
   .header {
     display: flex;
@@ -15,28 +15,86 @@
       margin-left: -3rem;
     }
   }
-  .mainContent {
-    margin-top: 1.5rem;
-    .content {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      align-items: center;
-      color: #ffffff;
-      margin-top: 1rem;
+}
+
+.sidebar_menu {
+  display: flex;
+  flex-direction: row;
+  ul {
+    list-style-type: none;
+  }
+  .sidebar_image {
+    margin-left: -1rem;
+    ul {
       img {
         width: 1.5rem;
         height: 1.5rem;
-        margin-left: -3rem;
+      }
+      .logout_image {
+        margin-top: 16.2rem;
+      }
+      li {
+        margin-top: 2.5rem;
+        cursor: pointer;
+      }
+      .hamburger {
+        margin-top: 1rem;
+      }
+      .home {
+        margin-top: 3.6rem;
       }
     }
-    .content2 {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      align-items: center;
-      color: #ffffff;
-      margin-top: 12rem;
+  }
+  .sidebar_list {
+    margin-left: 0.5rem;
+    ul {
+      li {
+        color: #ffffff;
+        font-size: 1rem;
+        margin-top: 2.7rem;
+        cursor: pointer;
+      }
+      .header {
+        margin-top: -1.3rem;
+      }
+
+      .savings {
+        margin-top: 3.1rem;
+      }
+      .invest {
+        margin-top: 3.1rem;
+      }
+      .account {
+        margin-top: 3.1rem;
+      }
+      .logout {
+        margin-top: 16.6rem;
+      }
     }
   }
 }
+//   .mainContent {
+//     margin-top: 1.5rem;
+//     .content {
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: space-evenly;
+//       align-items: center;
+//       color: #ffffff;
+//       margin-top: 1rem;
+//       img {
+//         width: 1.5rem;
+//         height: 1.5rem;
+//         margin-left: -3rem;
+//       }
+//     }
+//     .content2 {
+//       display: flex;
+//       flex-direction: row;
+//       justify-content: space-evenly;
+//       align-items: center;
+//       color: #ffffff;
+//       margin-top: 12rem;
+//     }
+//   }
+// }
